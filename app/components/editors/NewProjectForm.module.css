@@ -1,0 +1,36 @@
+.new_project_form {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid var(--palette-2);
+    border-radius: 5px;
+    background-color: var(--palette-b);
+}
+
+.new_project_form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form_group {
+    margin-bottom: 15px;
+}
+
+.form_group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form_group input[type="text"],
+.form_group textarea,
+.form_group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form_group input[type="checkbox"] {
+    margin-right: 10px;
+}

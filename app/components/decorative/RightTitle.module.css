@@ -1,0 +1,24 @@
+.right_side {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .letters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%; /* Adjust this value to change the spacing */
+  }
+  
+  .letters span {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
